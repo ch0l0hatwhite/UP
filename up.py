@@ -1,3 +1,8 @@
+import os
+import time
+
+os.system("clear")
+
 print("\033[32m ")
 print("""
               ──█─▄▀█──█▀▄─█──
@@ -11,8 +16,7 @@ print("""
          Herramientas De Automatizacion 
              Descarga De Herramientas """) 
              
-import os
-import time
+
 print("")
 print('  Bienvenidos a UDT Herramienta de automatización')
 
