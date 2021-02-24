@@ -30,7 +30,7 @@ print("Preparando herramientas a descargar ")
 time.sleep(2)
 os.system("clear")
 time.sleep(2)
-
+print("\033[32m")
 print("""
                ──█─▄▀█──█▀▄─█──
                ─▐▌──────────▐▌─
@@ -57,7 +57,7 @@ os.system("pkg install nano -y")
 os.system("pkg install php -y")
 os.system("pkg install wget -y")
 os.system("pkg install curl -y")
-os.system("pkg install sqlmap -y")
+os.system("pkg install  weechat-python-plugin -y")
 os.system("pkg install irssi -y")
 os.system("pkg install root-repo ")
 os.system("pkg install x11-repo ")
@@ -70,6 +70,7 @@ os.system("pkg install openssh -y")
 
 os.system('clear')
 
+print("\033[32m")
 print("""
                ──█─▄▀█──█▀▄─█──
                ─▐▌──────────▐▌─
