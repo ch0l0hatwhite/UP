@@ -1,26 +1,48 @@
+print("\033[32m ")
+print("""
+              ──█─▄▀█──█▀▄─█──
+              ─▐▌──────────▐▌─
+              ─█▌▀▄──▄▄──▄▀▐█─
+              ▐██──▀▀──▀▀──██▌
+              ████▄──▐▌──▄████ 
+                         
+              UDT BY : ch0l0hatwhite
+
+         Herramientas De Automatizacion 
+             Descarga De Herramientas """) 
+             
 import os
 import time
+print("")
+print('  Bienvenidos a UDT Herramienta de automatización')
 
+print('          descarga de herramientas Termux ')
+time.sleep(6)
 
-print("""
-          ──█─▄▀█──█▀▄─█──
-          ─▐▌──────────▐▌─
-          ─█▌▀▄──▄▄──▄▀▐█─
-          ▐██──▀▀──▀▀──██▌
-          ████▄──▐▌──▄████
-""")
-
-print(' Bienvenidos a UDT Herramienta de automátizacion de descarga de herramientas')
-time.sleep(3)
-
-
+print( ' ')
 print('cargando...')
-time.sleep(3)
+time.sleep(6)
+os.system("clear")
 
 print("Preparando herramientas a descargar ")
+
+
 time.sleep(2)
 os.system("clear")
 time.sleep(2)
+
+print("""
+               ──█─▄▀█──█▀▄─█──
+               ─▐▌──────────▐▌─
+               ─█▌▀▄──▄▄──▄▀▐█─
+               ▐██──▀▀──▀▀──██▌
+               ████▄──▐▌──▄████ 
+                           
+              UDT BY : ch0l0hatwhite
+
+         Herramientas De Automatizacion 
+             Descarga De Herramientas """) 
+
 
 print("cargando...")
 time.sleep(3)
@@ -39,32 +61,53 @@ os.system("pkg install sqlmap -y")
 os.system("pkg install irssi -y")
 os.system("pkg install root-repo ")
 os.system("pkg install x11-repo ")
+os.system("pkg install cat -y")
+
 os.system("pkg install unstable-repo")
 os.system("pkg update ")
 os.system("nmap -y")
 os.system("pkg install openssh -y")
-meta = input("la siguiente herramienta en instalarse es Framework Metasploit y Tiene un peso de 3gb Desea continuar? y / n  >> ")
 
-if meta == "y":
-        os.system("clear")
-print("metasploit framework esta instalandose..")
+os.system('clear')
+
+print("""
+               ──█─▄▀█──█▀▄─█──
+               ─▐▌──────────▐▌─
+               ─█▌▀▄──▄▄──▄▀▐█─
+               ▐██──▀▀──▀▀──██▌
+               ████▄──▐▌──▄████ 
+                           
+              UDT BY : ch0l0hatwhite
+
+         Herramientas De Automatizacion 
+             Descarga De Herramientas """) 
+print("")  
+print("")
+print("<< la siguiente herramienta en instalarse es Framework Metasploit y Tiene un peso de 3gb  >> ")
+time.sleep(6)
+os.system("clear")
+print("metasploit framework esta instalandose..* ")
+time.sleep(4)
+print("")
+print("")
+print("Tiempo De Descarga Aproximado 30min ")
 time.sleep(3)
-
+print("")
+print("")
 print("NO CIERRE LA CONSOLA Y NO APAGUE EL INTERNET")
-time.sleep(3)
+time.sleep(5)
 
 os.system("clear")
-os.system("pkg install metasploit")
 
 
-if meta == "n":
-       os.system("pkg update")
-       os.system("apt update")
-       os.system("exit")
+
+os.system("pkg update")
+os.system("apt update")
+os.system("clear")
         
 print("Herramientas Instaladas Con Exito :)")
+print("")
+print("")
 print("vuelva pronto")
-
+time.sleep(2)
 os.system("cmatrix")
-
-
