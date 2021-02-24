@@ -88,7 +88,7 @@ print("""
              Descarga De Herramientas """) 
 print("")  
 print("")
-print("<< la siguiente herramienta en instalarse es Framework Metasploit y Tiene un peso de 3gb  >> ")
+print("<< la siguiente herramienta en instalarse es Framework Metasploit  >> ")
 time.sleep(6)
 os.system("clear")
 print("metasploit framework esta instalandose..* ")
