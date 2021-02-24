@@ -46,7 +46,7 @@ os.system("pkg install openssh -y")
 meta = input("la siguiente herramienta en instalarse es Framework Metasploit y Tiene un peso de 3gb Desea continuar? y / n  >> ")
 
 if meta == "y":
-        os.sytem("clear")
+        os.system("clear")
 print("metasploit framework esta instalandose..")
 time.sleep(3)
 
@@ -56,10 +56,11 @@ time.sleep(3)
 os.system("clear")
 os.system("pkg install metasploit")
 
-elif meta == "n":
-   	os.system("pkg update")
-        os.system("apt update")
-        os.system("exit")
+
+if meta == "n":
+       os.system("pkg update")
+       os.system("apt update")
+       os.system("exit")
         
 print("Herramientas Instaladas Con Exito :)")
 print("vuelva pronto")
