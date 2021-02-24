@@ -2,15 +2,13 @@ import os
 import time
 
 
-os.system("clear")
-
-print(""
-──█─▄▀█──█▀▄─█──
-─▐▌──────────▐▌─
-─█▌▀▄──▄▄──▄▀▐█─
-▐██──▀▀──▀▀──██▌
-████▄──▐▌──▄████
-"")
+print("""
+          ──█─▄▀█──█▀▄─█──
+          ─▐▌──────────▐▌─
+          ─█▌▀▄──▄▄──▄▀▐█─
+          ▐██──▀▀──▀▀──██▌
+          ████▄──▐▌──▄████
+""")
 
 print(' Bienvenidos a UDT Herramienta de automátizacion de descarga de herramientas')
 time.sleep(3)
@@ -55,14 +53,17 @@ time.sleep(3)
 print("NO CIERRE LA CONSOLA Y NO APAGUE EL INTERNET")
 time.sleep(3)
 
-       os.system("clear")
-	os.system("pkg install metasploit")
-	
+os.system("clear")
+os.system("pkg install metasploit")
+
 elif meta == "n":
-	os.system("pkg update")
+   	os.system("pkg update")
         os.system("apt update")
         os.system("exit")
+        
 print("Herramientas Instaladas Con Exito :)")
 print("vuelva pronto")
-       os.system("cmatrix")
+
+os.system("cmatrix")
+
 
